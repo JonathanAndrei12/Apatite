@@ -16,6 +16,8 @@
 		DECD278A261AF53700475A53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DECD2788261AF53700475A53 /* LaunchScreen.storyboard */; };
 		DECD2795261AF53700475A53 /* ApatiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD2794261AF53700475A53 /* ApatiteTests.swift */; };
 		DECD27A0261AF53800475A53 /* ApatiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD279F261AF53800475A53 /* ApatiteUITests.swift */; };
+		DECD27C1261B17EA00475A53 /* DirQuestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD27C0261B17EA00475A53 /* DirQuestController.swift */; };
+		DECD27C6261B1AEB00475A53 /* MapsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD27C5261B1AEB00475A53 /* MapsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		DECD279B261AF53800475A53 /* ApatiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApatiteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DECD279F261AF53800475A53 /* ApatiteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApatiteUITests.swift; sourceTree = "<group>"; };
 		DECD27A1261AF53800475A53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DECD27C0261B17EA00475A53 /* DirQuestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirQuestController.swift; sourceTree = "<group>"; };
+		DECD27C5261B1AEB00475A53 /* MapsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				DECD2788261AF53700475A53 /* LaunchScreen.storyboard */,
 				DECD278B261AF53700475A53 /* Info.plist */,
 				DECD2783261AF53700475A53 /* Apatite.xcdatamodeld */,
+				DECD27C0261B17EA00475A53 /* DirQuestController.swift */,
+				DECD27C5261B1AEB00475A53 /* MapsController.swift */,
 			);
 			path = Apatite;
 			sourceTree = "<group>";
@@ -263,8 +269,10 @@
 			files = (
 				DECD2785261AF53700475A53 /* Apatite.xcdatamodeld in Sources */,
 				DECD277F261AF53700475A53 /* ViewController.swift in Sources */,
+				DECD27C6261B1AEB00475A53 /* MapsController.swift in Sources */,
 				DECD277B261AF53700475A53 /* AppDelegate.swift in Sources */,
 				DECD277D261AF53700475A53 /* SceneDelegate.swift in Sources */,
+				DECD27C1261B17EA00475A53 /* DirQuestController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
