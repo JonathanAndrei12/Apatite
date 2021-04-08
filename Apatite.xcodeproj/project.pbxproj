@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE28953C261D984B001596B6 /* SavedPlaceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE28953B261D984B001596B6 /* SavedPlaceCollectionViewCell.swift */; };
+		DE289541261D9990001596B6 /* SavedPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE289540261D9990001596B6 /* SavedPlaceViewController.swift */; };
+		DE289546261D9AE7001596B6 /* RestoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE289545261D9AE7001596B6 /* RestoModel.swift */; };
+		DE28954B261DB6A7001596B6 /* RestoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE28954A261DB6A7001596B6 /* RestoDetailViewController.swift */; };
+		DE289550261DBD3C001596B6 /* TransparentNavbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE28954F261DBD3C001596B6 /* TransparentNavbarController.swift */; };
+		DE3D1BA1261C572A00FCA93E /* DirectoryQuestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D1BA0261C572A00FCA93E /* DirectoryQuestController.swift */; };
+		DE3D1BA6261C589900FCA93E /* DirectoryCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D1BA5261C589900FCA93E /* DirectoryCellController.swift */; };
+		DE3D1BAB261C593200FCA93E /* DirQuestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3D1BAA261C593200FCA93E /* DirQuestModel.swift */; };
 		DECD277B261AF53700475A53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD277A261AF53700475A53 /* AppDelegate.swift */; };
 		DECD277D261AF53700475A53 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD277C261AF53700475A53 /* SceneDelegate.swift */; };
 		DECD277F261AF53700475A53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD277E261AF53700475A53 /* ViewController.swift */; };
@@ -16,7 +24,6 @@
 		DECD278A261AF53700475A53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DECD2788261AF53700475A53 /* LaunchScreen.storyboard */; };
 		DECD2795261AF53700475A53 /* ApatiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD2794261AF53700475A53 /* ApatiteTests.swift */; };
 		DECD27A0261AF53800475A53 /* ApatiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD279F261AF53800475A53 /* ApatiteUITests.swift */; };
-		DECD27C1261B17EA00475A53 /* DirQuestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD27C0261B17EA00475A53 /* DirQuestController.swift */; };
 		DECD27C6261B1AEB00475A53 /* MapsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD27C5261B1AEB00475A53 /* MapsController.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +45,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE28953B261D984B001596B6 /* SavedPlaceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPlaceCollectionViewCell.swift; sourceTree = "<group>"; };
+		DE289540261D9990001596B6 /* SavedPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPlaceViewController.swift; sourceTree = "<group>"; };
+		DE289545261D9AE7001596B6 /* RestoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoModel.swift; sourceTree = "<group>"; };
+		DE28954A261DB6A7001596B6 /* RestoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoDetailViewController.swift; sourceTree = "<group>"; };
+		DE28954F261DBD3C001596B6 /* TransparentNavbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentNavbarController.swift; sourceTree = "<group>"; };
+		DE3D1BA0261C572A00FCA93E /* DirectoryQuestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryQuestController.swift; sourceTree = "<group>"; };
+		DE3D1BA5261C589900FCA93E /* DirectoryCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryCellController.swift; sourceTree = "<group>"; };
+		DE3D1BAA261C593200FCA93E /* DirQuestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirQuestModel.swift; sourceTree = "<group>"; };
 		DECD2777261AF53700475A53 /* Apatite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apatite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DECD277A261AF53700475A53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DECD277C261AF53700475A53 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,7 +68,6 @@
 		DECD279B261AF53800475A53 /* ApatiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApatiteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DECD279F261AF53800475A53 /* ApatiteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApatiteUITests.swift; sourceTree = "<group>"; };
 		DECD27A1261AF53800475A53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DECD27C0261B17EA00475A53 /* DirQuestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirQuestController.swift; sourceTree = "<group>"; };
 		DECD27C5261B1AEB00475A53 /* MapsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,8 +127,15 @@
 				DECD2788261AF53700475A53 /* LaunchScreen.storyboard */,
 				DECD278B261AF53700475A53 /* Info.plist */,
 				DECD2783261AF53700475A53 /* Apatite.xcdatamodeld */,
-				DECD27C0261B17EA00475A53 /* DirQuestController.swift */,
 				DECD27C5261B1AEB00475A53 /* MapsController.swift */,
+				DE3D1BA0261C572A00FCA93E /* DirectoryQuestController.swift */,
+				DE3D1BA5261C589900FCA93E /* DirectoryCellController.swift */,
+				DE3D1BAA261C593200FCA93E /* DirQuestModel.swift */,
+				DE28953B261D984B001596B6 /* SavedPlaceCollectionViewCell.swift */,
+				DE289540261D9990001596B6 /* SavedPlaceViewController.swift */,
+				DE289545261D9AE7001596B6 /* RestoModel.swift */,
+				DE28954A261DB6A7001596B6 /* RestoDetailViewController.swift */,
+				DE28954F261DBD3C001596B6 /* TransparentNavbarController.swift */,
 			);
 			path = Apatite;
 			sourceTree = "<group>";
@@ -267,12 +288,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE3D1BAB261C593200FCA93E /* DirQuestModel.swift in Sources */,
 				DECD2785261AF53700475A53 /* Apatite.xcdatamodeld in Sources */,
+				DE289546261D9AE7001596B6 /* RestoModel.swift in Sources */,
 				DECD277F261AF53700475A53 /* ViewController.swift in Sources */,
+				DE28953C261D984B001596B6 /* SavedPlaceCollectionViewCell.swift in Sources */,
+				DE28954B261DB6A7001596B6 /* RestoDetailViewController.swift in Sources */,
 				DECD27C6261B1AEB00475A53 /* MapsController.swift in Sources */,
 				DECD277B261AF53700475A53 /* AppDelegate.swift in Sources */,
+				DE289541261D9990001596B6 /* SavedPlaceViewController.swift in Sources */,
+				DE289550261DBD3C001596B6 /* TransparentNavbarController.swift in Sources */,
+				DE3D1BA1261C572A00FCA93E /* DirectoryQuestController.swift in Sources */,
+				DE3D1BA6261C589900FCA93E /* DirectoryCellController.swift in Sources */,
 				DECD277D261AF53700475A53 /* SceneDelegate.swift in Sources */,
-				DECD27C1261B17EA00475A53 /* DirQuestController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
