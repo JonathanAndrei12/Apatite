@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		605BED15261D9235002700F4 /* restoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605BED14261D9235002700F4 /* restoData.swift */; };
+		60F1B82A261AFFEF0009A53F /* test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60F1B829261AFFEF0009A53F /* test.storyboard */; };
+		60F1B82F261B06E30009A53F /* signInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F1B82E261B06E30009A53F /* signInViewController.swift */; };
+		60F1B834261C62CE0009A53F /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F1B833261C62CE0009A53F /* DiscoverViewController.swift */; };
+		60F1B839261D7DB50009A53F /* RestoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F1B838261D7DB50009A53F /* RestoCollectionViewCell.swift */; };
+		60F2371F261EE6C700162C88 /* MenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F2371E261EE6C700162C88 /* MenuCollectionViewCell.swift */; };
+		60F23727261EEA2700162C88 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F23726261EEA2700162C88 /* MenuViewController.swift */; };
 		DECD277B261AF53700475A53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD277A261AF53700475A53 /* AppDelegate.swift */; };
 		DECD277D261AF53700475A53 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD277C261AF53700475A53 /* SceneDelegate.swift */; };
 		DECD277F261AF53700475A53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD277E261AF53700475A53 /* ViewController.swift */; };
@@ -36,6 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		605BED14261D9235002700F4 /* restoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restoData.swift; sourceTree = "<group>"; };
+		60F1B829261AFFEF0009A53F /* test.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = test.storyboard; sourceTree = "<group>"; };
+		60F1B82E261B06E30009A53F /* signInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signInViewController.swift; sourceTree = "<group>"; };
+		60F1B833261C62CE0009A53F /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		60F1B838261D7DB50009A53F /* RestoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoCollectionViewCell.swift; sourceTree = "<group>"; };
+		60F2371E261EE6C700162C88 /* MenuCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCollectionViewCell.swift; sourceTree = "<group>"; };
+		60F23726261EEA2700162C88 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		DECD2777261AF53700475A53 /* Apatite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apatite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DECD277A261AF53700475A53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DECD277C261AF53700475A53 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,14 +115,21 @@
 		DECD2779261AF53700475A53 /* Apatite */ = {
 			isa = PBXGroup;
 			children = (
+				60F2371E261EE6C700162C88 /* MenuCollectionViewCell.swift */,
 				DECD277A261AF53700475A53 /* AppDelegate.swift */,
 				DECD277C261AF53700475A53 /* SceneDelegate.swift */,
 				DECD277E261AF53700475A53 /* ViewController.swift */,
+				60F1B82E261B06E30009A53F /* signInViewController.swift */,
 				DECD2780261AF53700475A53 /* Main.storyboard */,
+				60F1B829261AFFEF0009A53F /* test.storyboard */,
+				60F23726261EEA2700162C88 /* MenuViewController.swift */,
+				605BED14261D9235002700F4 /* restoData.swift */,
+				60F1B838261D7DB50009A53F /* RestoCollectionViewCell.swift */,
 				DECD2786261AF53700475A53 /* Assets.xcassets */,
 				DECD2788261AF53700475A53 /* LaunchScreen.storyboard */,
 				DECD278B261AF53700475A53 /* Info.plist */,
 				DECD2783261AF53700475A53 /* Apatite.xcdatamodeld */,
+				60F1B833261C62CE0009A53F /* DiscoverViewController.swift */,
 			);
 			path = Apatite;
 			sourceTree = "<group>";
@@ -236,6 +257,7 @@
 			files = (
 				DECD278A261AF53700475A53 /* LaunchScreen.storyboard in Resources */,
 				DECD2787261AF53700475A53 /* Assets.xcassets in Resources */,
+				60F1B82A261AFFEF0009A53F /* test.storyboard in Resources */,
 				DECD2782261AF53700475A53 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +284,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				DECD2785261AF53700475A53 /* Apatite.xcdatamodeld in Sources */,
+				60F23727261EEA2700162C88 /* MenuViewController.swift in Sources */,
+				605BED15261D9235002700F4 /* restoData.swift in Sources */,
+				60F2371F261EE6C700162C88 /* MenuCollectionViewCell.swift in Sources */,
 				DECD277F261AF53700475A53 /* ViewController.swift in Sources */,
 				DECD277B261AF53700475A53 /* AppDelegate.swift in Sources */,
+				60F1B834261C62CE0009A53F /* DiscoverViewController.swift in Sources */,
+				60F1B839261D7DB50009A53F /* RestoCollectionViewCell.swift in Sources */,
 				DECD277D261AF53700475A53 /* SceneDelegate.swift in Sources */,
+				60F1B82F261B06E30009A53F /* signInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
