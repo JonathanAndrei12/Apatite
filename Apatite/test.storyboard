@@ -60,7 +60,7 @@ of coconut milk and Minangkabau secret spice.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="62i-TX-wgh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3911" y="-1172"/>
+            <point key="canvasLocation" x="5006" y="-1941"/>
         </scene>
         <!--Item 2-->
         <scene sceneID="kQs-Ci-dCb">
@@ -87,17 +87,14 @@ of coconut milk and Minangkabau secret spice.</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HDX-cb-bNA">
-                                <rect key="frame" x="15" y="150" width="53" height="22"/>
+                                <rect key="frame" x="15" y="54" width="53" height="22"/>
                                 <color key="tintColor" name="ApatiteBlue"/>
                                 <state key="normal" title="Back" image="chevron.backward" catalog="system">
                                     <color key="titleColor" name="ApatiteBlue"/>
                                 </state>
-                                <connections>
-                                    <segue destination="rxM-x1-iLw" kind="presentation" id="9xB-XJ-GpW"/>
-                                </connections>
                             </button>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="gub-hG-Ff9">
-                                <rect key="frame" x="40" y="182" width="310" height="579"/>
+                                <rect key="frame" x="40" y="86" width="310" height="724"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Qzc-vK-8p2">
                                     <size key="itemSize" width="153" height="196"/>
@@ -180,18 +177,18 @@ of coconut milk and Minangkabau secret spice.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bIR-SI-k0X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3223" y="-1172"/>
+            <point key="canvasLocation" x="4317" y="-1941"/>
         </scene>
         <!--Write a review-->
         <scene sceneID="Cpl-zQ-bo0">
             <objects>
                 <viewController id="cMe-v6-z6J" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="o4Q-Ef-Ndc">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T9u-ay-Dgc">
-                                <rect key="frame" x="10" y="311" width="370" height="1"/>
+                                <rect key="frame" x="10" y="338" width="370" height="1"/>
                                 <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="eJv-Pi-kN0"/>
@@ -201,7 +198,7 @@ of coconut milk and Minangkabau secret spice.</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iJF-1L-e31">
-                                <rect key="frame" x="122.66666666666669" y="83.666666666666671" width="145" height="27"/>
+                                <rect key="frame" x="122.66666666666669" y="110.66666666666667" width="145" height="27.000000000000014"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="4zm-Wg-hBk">
                                         <rect key="frame" x="0.0" y="-0.33333333333333215" width="29" height="26.666666666666664"/>
@@ -246,13 +243,13 @@ of coconut milk and Minangkabau secret spice.</string>
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap a Star to Rate " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2RS-vJ-g52">
-                                <rect key="frame" x="139.33333333333334" y="120.66666666666667" width="111.33333333333334" height="15.666666666666671"/>
+                                <rect key="frame" x="139.33333333333334" y="147.66666666666666" width="111.33333333333334" height="15.666666666666657"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" systemColor="systemGray2Color"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="aqY-A1-wjd">
-                                <rect key="frame" x="10" y="163.66666666666666" width="370" height="85"/>
+                                <rect key="frame" x="10" y="190.66666666666666" width="370" height="84.999999999999972"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="restaurant1" translatesAutoresizingMaskIntoConstraints="NO" id="Po3-UJ-R9k">
                                         <rect key="frame" x="0.0" y="0.0" width="85" height="85"/>
@@ -312,7 +309,7 @@ of coconut milk and Minangkabau secret spice.</string>
                                 </constraints>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WpS-7B-SFE">
-                                <rect key="frame" x="10" y="263.66666666666669" width="370" height="1"/>
+                                <rect key="frame" x="10" y="290.66666666666669" width="370" height="1"/>
                                 <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="nnR-bT-s57"/>
@@ -322,13 +319,13 @@ of coconut milk and Minangkabau secret spice.</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wEi-Em-5zI">
-                                <rect key="frame" x="11.000000000000002" y="279.66666666666669" width="31.666666666666671" height="19.333333333333314"/>
+                                <rect key="frame" x="11.000000000000002" y="306.66666666666669" width="31.666666666666671" height="19.333333333333314"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="QXG-3C-8d7">
-                                <rect key="frame" x="11" y="347" width="368" height="126"/>
+                                <rect key="frame" x="11" y="374" width="368" height="126"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="126" id="Fdp-uJ-d0A"/>
@@ -338,7 +335,7 @@ of coconut milk and Minangkabau secret spice.</string>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Review (Optional)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NIZ-34-SD2">
-                                <rect key="frame" x="11" y="320" width="128.33333333333334" height="19.333333333333314"/>
+                                <rect key="frame" x="11" y="347" width="128.33333333333334" height="19.333333333333314"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -385,7 +382,7 @@ of coconut milk and Minangkabau secret spice.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lca-8L-a4r" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5040" y="-1054.2654028436018"/>
+            <point key="canvasLocation" x="5174" y="-1260"/>
         </scene>
         <!--Discover-->
         <scene sceneID="1hf-Ft-mbK">
@@ -465,7 +462,6 @@ of coconut milk and Minangkabau secret spice.</string>
                                             <outlet property="restoImage" destination="myi-vm-BDO" id="gcz-4r-xKq"/>
                                             <outlet property="restonameLabel" destination="qfA-or-5r4" id="Jtp-cO-afV"/>
                                             <outlet property="restoratingLabel" destination="4CK-SC-q4f" id="ZxS-za-pzt"/>
-                                            <segue destination="v2w-Yc-yfW" kind="show" id="ez4-FN-InF"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -547,7 +543,7 @@ of coconut milk and Minangkabau secret spice.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d8L-6o-K1Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="931.88405797101461" y="183.48214285714286"/>
+            <point key="canvasLocation" x="318" y="17"/>
         </scene>
         <!--Discover-->
         <scene sceneID="JbH-fJ-C2o">
@@ -579,7 +575,7 @@ of coconut milk and Minangkabau secret spice.</string>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rxM-x1-iLw" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="9T4-re-wkm">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="56"/>
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>
@@ -590,7 +586,7 @@ of coconut milk and Minangkabau secret spice.</string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KDG-WV-TTK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5214" y="-1978"/>
+            <point key="canvasLocation" x="4318" y="-1260"/>
         </scene>
     </scenes>
     <resources>
