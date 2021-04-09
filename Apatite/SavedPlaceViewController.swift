@@ -45,7 +45,7 @@ extension SavedPlaceViewController: UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        if indexPath.row == 1 {
+        if indexPath.row == 3 {
             performSegue(withIdentifier: "SavedRestoDetails", sender: self)
         }
     }

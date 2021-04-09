@@ -92,7 +92,9 @@ return CGSize(width: 151, height: 175)
 }
 extension DiscoverViewController: UICollectionViewDelegate {
 func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-print(restos[indexPath.row].name)
+        if indexPath.row == 3 {
+            performSegue(withIdentifier: "DiscoverRestoDetails", sender: self)
+        }
     }
 }
 
