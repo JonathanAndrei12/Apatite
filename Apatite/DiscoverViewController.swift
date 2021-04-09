@@ -18,9 +18,11 @@ class DiscoverViewController: UIViewController {
         action: #selector(tapButton)
     )
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+     
+
         //collectionView
         restoCollectionView.dataSource = self
         restoCollectionView.delegate=self
@@ -40,7 +42,7 @@ class DiscoverViewController: UIViewController {
 //        searchController.searchBar.tintColor=UIColor=UIColor.white
         // Do any additional setup after loading the view.
     }
-    
+  
     @objc func tapButton(){
         print("tap!")
     }
@@ -93,3 +95,6 @@ func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPat
 print(restos[indexPath.row].name)
     }
 }
+
+
+

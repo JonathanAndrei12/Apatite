@@ -561,6 +561,9 @@ of coconut milk and Minangkabau secret spice.</string>
                         </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="c8T-1B-jEX">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="K7Z-Je-nXT" kind="relationship" relationship="rootViewController" id="VWc-Pj-y5K"/>
                     </connections>
