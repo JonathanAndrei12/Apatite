@@ -19,5 +19,8 @@ class MapsViewController: UIViewController {
     }
 
     
+    @IBAction func backButton(_ sender: UIBarButtonItem) {
+        dismiss(animated: true, completion: nil)
+    }
     
 }

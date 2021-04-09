@@ -16,7 +16,7 @@ struct Resto {
 let restos: [Resto] = [
     Resto(name: "Arborea", image: #imageLiteral(resourceName: "ArboreaResto"), rating: "3.8/5"),
     Resto(name: "Warung Universe", image: #imageLiteral(resourceName: "WarungUniverse"), rating: "4.0/5"),
-    Resto(name: "Sakti Dining Rooms - Fivelements", image: #imageLiteral(resourceName: "ArboreaResto"), rating: "4.2/5"),
-    Resto(name: "Stay Shady and Relaxed - Parachute", image: #imageLiteral(resourceName: "ArboreaResto"), rating: "3.1/5")
+    Resto(name: "Sakti Dining Rooms - Fivelements", image: #imageLiteral(resourceName: "SaktiDiningRoom"), rating: "4.2/5"),
+    Resto(name: "Stay Shady and Relaxed - Parachute", image: #imageLiteral(resourceName: "StayShady"), rating: "3.1/5")
 ]
 
