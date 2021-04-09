@@ -339,7 +339,7 @@ pk. 00.00 - 06.00 WIB</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wEi-Em-5zI">
-                                <rect key="frame" x="11" y="304" width="31.666666666666671" height="19.333333333333314"/>
+                                <rect key="frame" x="11.000000000000002" y="304" width="31.666666666666671" height="19.333333333333314"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
