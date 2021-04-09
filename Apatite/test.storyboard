@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="v2w-Yc-yfW">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rxM-x1-iLw">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
@@ -49,12 +49,14 @@ of coconut milk and Minangkabau secret spice.</string>
                         <viewLayoutGuide key="safeArea" id="Yo8-PI-6La"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="ssd-4t-MAW" firstAttribute="centerY" secondItem="Soq-xi-Oqb" secondAttribute="centerY" id="FVj-Og-K4d"/>
                             <constraint firstItem="UBQ-Tr-9ic" firstAttribute="centerX" secondItem="ssd-4t-MAW" secondAttribute="centerX" id="Ipa-Ta-H1n"/>
                             <constraint firstItem="Ije-ec-ehn" firstAttribute="top" secondItem="ssd-4t-MAW" secondAttribute="bottom" constant="5" id="Sdz-Ya-PdV"/>
                             <constraint firstItem="UBQ-Tr-9ic" firstAttribute="top" secondItem="Ije-ec-ehn" secondAttribute="bottom" constant="4" id="XMl-E4-8T5"/>
                             <constraint firstItem="ssd-4t-MAW" firstAttribute="centerY" secondItem="Soq-xi-Oqb" secondAttribute="centerY" id="Z0C-fK-M02"/>
                             <constraint firstItem="Ije-ec-ehn" firstAttribute="centerX" secondItem="ssd-4t-MAW" secondAttribute="centerX" id="dgG-U3-LAF"/>
                             <constraint firstItem="ssd-4t-MAW" firstAttribute="centerX" secondItem="Soq-xi-Oqb" secondAttribute="centerX" id="keZ-tn-bIz"/>
+                            <constraint firstItem="ssd-4t-MAW" firstAttribute="centerX" secondItem="Soq-xi-Oqb" secondAttribute="centerX" id="smW-fB-wmi"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -94,7 +96,7 @@ of coconut milk and Minangkabau secret spice.</string>
                                 </state>
                             </button>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="gub-hG-Ff9">
-                                <rect key="frame" x="40" y="86" width="310" height="724"/>
+                                <rect key="frame" x="40" y="153.66666666666669" width="310" height="656.33333333333326"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Qzc-vK-8p2">
                                     <size key="itemSize" width="153" height="196"/>
@@ -158,15 +160,33 @@ of coconut milk and Minangkabau secret spice.</string>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Warung Universe Menu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="87M-bC-UBN">
+                                <rect key="frame" x="97.666666666666686" y="86" width="195" height="22"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sVT-ZL-2eU">
+                                <rect key="frame" x="119.66666666666669" y="110" width="151" height="33.666666666666657"/>
+                                <string key="text">Jl. Antariksa Barat 157
+pk. 00.00 - 06.00 WIB</string>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <color key="textColor" systemColor="systemGray2Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="4fu-nA-F5f"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="gub-hG-Ff9" firstAttribute="top" secondItem="sVT-ZL-2eU" secondAttribute="bottom" constant="10" id="8B9-c2-sFr"/>
                             <constraint firstItem="4fu-nA-F5f" firstAttribute="trailing" secondItem="gub-hG-Ff9" secondAttribute="trailing" constant="40" id="A5I-ft-6CP"/>
-                            <constraint firstItem="gub-hG-Ff9" firstAttribute="top" secondItem="HDX-cb-bNA" secondAttribute="bottom" constant="10" id="GjG-fG-SQe"/>
                             <constraint firstItem="HDX-cb-bNA" firstAttribute="leading" secondItem="4fu-nA-F5f" secondAttribute="leading" constant="15" id="I8I-zY-KBD"/>
+                            <constraint firstItem="sVT-ZL-2eU" firstAttribute="centerX" secondItem="crh-Vt-xb1" secondAttribute="centerX" id="PGV-jN-OMH"/>
+                            <constraint firstItem="sVT-ZL-2eU" firstAttribute="top" secondItem="87M-bC-UBN" secondAttribute="bottom" constant="2" id="aUo-Ah-SuF"/>
+                            <constraint firstItem="87M-bC-UBN" firstAttribute="top" secondItem="HDX-cb-bNA" secondAttribute="bottom" constant="10" id="doQ-L6-rag"/>
                             <constraint firstItem="4fu-nA-F5f" firstAttribute="bottom" secondItem="gub-hG-Ff9" secondAttribute="bottom" id="nFY-FF-P5I"/>
                             <constraint firstItem="HDX-cb-bNA" firstAttribute="top" secondItem="4fu-nA-F5f" secondAttribute="top" constant="10" id="ncs-71-6vA"/>
+                            <constraint firstItem="87M-bC-UBN" firstAttribute="centerX" secondItem="crh-Vt-xb1" secondAttribute="centerX" id="nzs-cP-niV"/>
                             <constraint firstItem="gub-hG-Ff9" firstAttribute="leading" secondItem="4fu-nA-F5f" secondAttribute="leading" constant="40" id="seT-KN-9UC"/>
                         </constraints>
                     </view>
@@ -177,7 +197,7 @@ of coconut milk and Minangkabau secret spice.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bIR-SI-k0X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4317" y="-1941"/>
+            <point key="canvasLocation" x="4316.9230769230771" y="-1941.4691943127962"/>
         </scene>
         <!--Write a review-->
         <scene sceneID="Cpl-zQ-bo0">
@@ -188,7 +208,7 @@ of coconut milk and Minangkabau secret spice.</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T9u-ay-Dgc">
-                                <rect key="frame" x="10" y="338" width="370" height="1"/>
+                                <rect key="frame" x="10" y="335.33333333333331" width="370" height="1"/>
                                 <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="eJv-Pi-kN0"/>
@@ -198,7 +218,7 @@ of coconut milk and Minangkabau secret spice.</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iJF-1L-e31">
-                                <rect key="frame" x="122.66666666666669" y="110.66666666666667" width="145" height="27.000000000000014"/>
+                                <rect key="frame" x="122.66666666666669" y="108" width="145" height="27"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="4zm-Wg-hBk">
                                         <rect key="frame" x="0.0" y="-0.33333333333333215" width="29" height="26.666666666666664"/>
@@ -243,13 +263,13 @@ of coconut milk and Minangkabau secret spice.</string>
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap a Star to Rate " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2RS-vJ-g52">
-                                <rect key="frame" x="139.33333333333334" y="147.66666666666666" width="111.33333333333334" height="15.666666666666657"/>
+                                <rect key="frame" x="139.33333333333334" y="145" width="111.33333333333334" height="15.666666666666657"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" systemColor="systemGray2Color"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="aqY-A1-wjd">
-                                <rect key="frame" x="10" y="190.66666666666666" width="370" height="84.999999999999972"/>
+                                <rect key="frame" x="10" y="188" width="370" height="85"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="restaurant1" translatesAutoresizingMaskIntoConstraints="NO" id="Po3-UJ-R9k">
                                         <rect key="frame" x="0.0" y="0.0" width="85" height="85"/>
@@ -309,7 +329,7 @@ of coconut milk and Minangkabau secret spice.</string>
                                 </constraints>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WpS-7B-SFE">
-                                <rect key="frame" x="10" y="290.66666666666669" width="370" height="1"/>
+                                <rect key="frame" x="10" y="288" width="370" height="1"/>
                                 <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="nnR-bT-s57"/>
@@ -319,13 +339,13 @@ of coconut milk and Minangkabau secret spice.</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wEi-Em-5zI">
-                                <rect key="frame" x="11.000000000000002" y="306.66666666666669" width="31.666666666666671" height="19.333333333333314"/>
+                                <rect key="frame" x="11" y="304" width="31.666666666666671" height="19.333333333333314"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="QXG-3C-8d7">
-                                <rect key="frame" x="11" y="374" width="368" height="126"/>
+                                <rect key="frame" x="11" y="371.33333333333331" width="368" height="126"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="126" id="Fdp-uJ-d0A"/>
@@ -335,7 +355,7 @@ of coconut milk and Minangkabau secret spice.</string>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Review (Optional)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NIZ-34-SD2">
-                                <rect key="frame" x="11" y="347" width="128.33333333333334" height="19.333333333333314"/>
+                                <rect key="frame" x="11" y="344.33333333333331" width="128.33333333333334" height="19.333333333333314"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -350,6 +370,7 @@ of coconut milk and Minangkabau secret spice.</string>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="2RS-vJ-g52" firstAttribute="top" secondItem="iJF-1L-e31" secondAttribute="bottom" constant="10" id="1Io-fP-cTv"/>
+                            <constraint firstItem="iJF-1L-e31" firstAttribute="top" secondItem="5um-AS-Dpx" secondAttribute="top" constant="20" id="22m-2e-FMu"/>
                             <constraint firstItem="aqY-A1-wjd" firstAttribute="top" secondItem="2RS-vJ-g52" secondAttribute="bottom" constant="27.333333333333343" id="2hS-Ev-eJw"/>
                             <constraint firstItem="YGu-21-i0s" firstAttribute="top" secondItem="WpS-7B-SFE" secondAttribute="bottom" constant="8" symbolic="YES" id="4aF-i3-wou"/>
                             <constraint firstItem="T9u-ay-Dgc" firstAttribute="top" secondItem="YGu-21-i0s" secondAttribute="bottom" constant="5" id="8Vo-Br-mKI"/>
@@ -363,7 +384,6 @@ of coconut milk and Minangkabau secret spice.</string>
                             <constraint firstItem="aqY-A1-wjd" firstAttribute="leading" secondItem="5um-AS-Dpx" secondAttribute="leading" constant="10" id="cf0-Pa-LUf"/>
                             <constraint firstItem="5um-AS-Dpx" firstAttribute="trailing" secondItem="WpS-7B-SFE" secondAttribute="trailing" constant="10" id="dMf-hT-2BX"/>
                             <constraint firstAttribute="trailing" secondItem="T9u-ay-Dgc" secondAttribute="trailing" constant="10" id="egO-nb-aLM"/>
-                            <constraint firstItem="iJF-1L-e31" firstAttribute="centerY" secondItem="o4Q-Ef-Ndc" secondAttribute="centerY" constant="-298" id="fXk-d6-HgX"/>
                             <constraint firstItem="QXG-3C-8d7" firstAttribute="top" secondItem="NIZ-34-SD2" secondAttribute="bottom" constant="7.6666666666666856" id="jLa-EJ-cVa"/>
                             <constraint firstItem="NIZ-34-SD2" firstAttribute="top" secondItem="T9u-ay-Dgc" secondAttribute="bottom" constant="8" symbolic="YES" id="lVo-eX-tD1"/>
                             <constraint firstItem="2RS-vJ-g52" firstAttribute="centerX" secondItem="o4Q-Ef-Ndc" secondAttribute="centerX" id="lqe-4L-0QM"/>
