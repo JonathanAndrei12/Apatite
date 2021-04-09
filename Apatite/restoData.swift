@@ -14,20 +14,11 @@ struct Resto {
 }
 
 let restos: [Resto] = [
-<<<<<<< Updated upstream
-    Resto(name: "Bu De Resto", image: #imageLiteral(resourceName: "restaurant1"),rating: "3.5/5"),
-    Resto(name: "Warung Enak", image: #imageLiteral(resourceName: "SaktiDiningRoom"),rating: "4/5"),
-    Resto(name: "El Resto Italia", image: #imageLiteral(resourceName: "WarungUniverse2"),rating: "3.9/5"),
-    Resto(name: "Warung Universe", image: #imageLiteral(resourceName: "ArboreaResto"),rating: "5/5"),
-    Resto(name: "Pablo's Canggu", image: #imageLiteral(resourceName: "StayShady"),rating: "4.4/5"),
-=======
     Resto(name: "Bu De Resto", image: #imageLiteral(resourceName: "WarungUniverse1"),rating: "3.5/5"),
     Resto(name: "Warung Enak", image: #imageLiteral(resourceName: "StayShady"),rating: "4/5"),
     Resto(name: "El Resto Italia", image: #imageLiteral(resourceName: "SaktiDiningRoom"),rating: "3.9/5"),
     Resto(name: "Warung Universe", image: #imageLiteral(resourceName: "WarungUniverse"),rating: "5/5"),
     Resto(name: "Pablo's Canggu", image: #imageLiteral(resourceName: "restaurant1"),rating: "4.4/5"),
->>>>>>> Stashed changes
-  
 ]
 
 struct Menu {
