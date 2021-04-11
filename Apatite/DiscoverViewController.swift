@@ -24,16 +24,10 @@ class DiscoverViewController: UIViewController {
      
 
         //collectionView
-//        restoCollectionView.dataSource = self
-//        restoCollectionView.delegate=self
-//        restoCollectionView.collectionViewLayout = UICollectionViewFlowLayout()
-        
-        
         restoCollectionView.dataSource = self
-        restoCollectionView.delegate = self
-        restoCollectionView.collectionViewLayout  = UICollectionViewFlowLayout()
-        restoCollectionView!.contentInset = UIEdgeInsets(top: 10, left: 30, bottom: 30, right: 30)
-
+        restoCollectionView.delegate=self
+        restoCollectionView.collectionViewLayout = UICollectionViewFlowLayout()
+        
         
         navigationItem.rightBarButtonItem=rightBarButtonItem
         navigationItem.searchController=searchController
@@ -69,27 +63,25 @@ extension DiscoverViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return restos.count
     }
-    
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "RestoCollectionViewCell", for: indexPath) as! RestoCollectionViewCell
-        cell.contentView.layer.cornerRadius = 15
-        cell.contentView.layer.borderWidth = 0.0
+        cell.contentView.layer.cornerRadius = 10
+        cell.contentView.layer.borderWidth = 1.0
 
-        cell.contentView.layer.borderColor = UIColor.black.cgColor
-//      cell.contentView.layer.masksToBounds = true
+        cell.contentView.layer.borderColor = UIColor.lightGray.cgColor
+        cell.contentView.layer.masksToBounds = true
 
-        cell.layer.shadowColor = UIColor.black.cgColor
-        cell.layer.shadowOffset = CGSize(width: 0, height: 1.0)
-        cell.layer.shadowRadius = 1.5
-        cell.layer.shadowOpacity = 0.3
+        cell.layer.shadowColor = UIColor.gray.cgColor
+        cell.layer.shadowOffset = CGSize(width: 0, height: 2.0)
+        cell.layer.shadowRadius = 2.0
+        cell.layer.shadowOpacity = 1.0
         cell.layer.masksToBounds = false
-        cell.clipsToBounds = false
-//        cell.layer.shadowPath = UIBezierPath(roundedRect:cell.bounds, cornerRadius:cell.contentView.layer.cornerRadius).cgPath
+        cell.layer.shadowPath = UIBezierPath(roundedRect:cell.bounds, cornerRadius:cell.contentView.layer.cornerRadius).cgPath
         cell.setup(with: restos[indexPath.row])
+       
                
-                       
-                
-                return cell
+        
+        return cell
     }
     
 }
