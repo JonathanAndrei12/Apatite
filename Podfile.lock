@@ -1,0 +1,20 @@
+PODS:
+  - BonsaiController (6.0.0)
+  - BulletinBoard (5.0.0)
+
+DEPENDENCIES:
+  - BonsaiController
+  - BulletinBoard
+
+SPEC REPOS:
+  trunk:
+    - BonsaiController
+    - BulletinBoard
+
+SPEC CHECKSUMS:
+  BonsaiController: 63410fc39bc5b3a9df5b329dbc848b6b27edf663
+  BulletinBoard: dba77053c2a7b64953f63073f7534165af2edd21
+
+PODFILE CHECKSUM: 9771891fa6080f9f22fb189b9714eeb86dd67ab7
+
+COCOAPODS: 1.10.1

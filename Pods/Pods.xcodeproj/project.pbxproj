@@ -1,0 +1,1287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00856C14219CAD68477D7391D857261F /* Pods-ApatiteTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FE5D90DB17C832B1D6C414AE14A5DB /* Pods-ApatiteTests-dummy.m */; };
+		0982556682E8F4D0B0CF9919553175F1 /* BLTNTitleLabelContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD354AF5ACC35AB226FC1B14C42A2D4 /* BLTNTitleLabelContainer.swift */; };
+		0C2C9C5D42BB292FF7FB3BD4F6809436 /* BLTNItemManager+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE401DCBA5B625A3478AAA52AA387262 /* BLTNItemManager+Helpers.swift */; };
+		106DAE62DB94F423613118952C41F25F /* Pods-Apatite-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 390B57BA8117CB76C9B83AFF2B8578F8 /* Pods-Apatite-dummy.m */; };
+		19873951184EA4A8B280DCBAB5D05F86 /* BulletinCloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC8529840FAFD678B7F5144B2887300 /* BulletinCloseButton.swift */; };
+		29DE6DB6FCCAB675EDB8C9967EEBB8E3 /* SlideInTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA59EAE363D7490A13D397361A002C05 /* SlideInTransition.swift */; };
+		3BC29E999BEA31FDA07B9CCD73B5CF54 /* ContinuousMaskLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE1202E65A43C7B01C412BAA13FD429 /* ContinuousMaskLayer.swift */; };
+		3C0B66D9B27B7DBDC1D5B4097E9385E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		3C5503601AD53E1A2623B04DB6E1695B /* BulletinBoard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2C301DE9AB1AE8916240168A8C259BA /* BulletinBoard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E275340AA7E04E904203723E7F73B43 /* BulletinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CD76FCB36CA9BB9338F888E401B3CA /* BulletinViewController.swift */; };
+		3F7DC59656D0DDA71E371D281B69EA08 /* UIView+RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01F1705F4E6A686DD961E6B00266E4C /* UIView+RoundedView.swift */; };
+		426FB778F42F7A71AFE6E4E1500F59B8 /* BLTNItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342A306C4C4C3904113AAEC6FCB1D3AE /* BLTNItemManager.swift */; };
+		44367DC5AA41CEED8E506F1B764F1DFF /* Pods-ApatiteTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C0F10F276FB16CBB325D0EBB24816DB /* Pods-ApatiteTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4ECD1E4F43F694BF8C73979FB530AC47 /* Pods-Apatite-ApatiteUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F84F4EF245E2ED69969D9DD888AEB0 /* Pods-Apatite-ApatiteUITests-dummy.m */; };
+		5539DEA50DF15BAB199475748B5867AE /* BLTNItemAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDA764C9FDD2C3CFCCB5D7D5A0F8C65 /* BLTNItemAppearance.swift */; };
+		55E03F10F4196ACB82F3CF1EE8A80425 /* AnimationChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C3D2C906A3F287CA1A3CDE42EC5AD2 /* AnimationChain.swift */; };
+		5AC225342F4949A243D0AC02805E3FB4 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53021394509DD0483FD67AD80AB0761 /* ActivityIndicator.swift */; };
+		5D38B95F9FD5F4C3CCA3E5CE016470F3 /* BulletinDismissAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5142BB05D915C53DAC42DC00EAC7A52 /* BulletinDismissAnimationController.swift */; };
+		5F796B337D17608ED2AFF29BC4F7FEC8 /* Pods-Apatite-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84277768234AD1E871627D932523390C /* Pods-Apatite-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61D89F814CE3E175EFEAD9123B2FD0D4 /* BulletinBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4E9C910CA1DF1ABEE0EC78EF575CAA /* BulletinBackgroundView.swift */; };
+		631FF66C3764B4411BD5D0B023BDE35A /* BulletinPresentationAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D445791B76BC34C628411044A025EDD /* BulletinPresentationAnimationController.swift */; };
+		63453488DABC83B1C3BA9DC8C9EE27E4 /* BLTNBackgroundViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390B283CCF979EC6FBBEEEAD82A502A0 /* BLTNBackgroundViewStyle.swift */; };
+		68A9160573FEA726120F68A374AE227C /* BulletinBoard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C9FD80B9A9C66C88111C952B50E7E9 /* BulletinBoard-dummy.m */; };
+		6CA30204743E8010466B3CC22787B711 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		70CD18B564480ACF4BF94F581781B350 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		7103CC1152883412341B8B544F2EA107 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		72ADDB23CE78B548C5C9E9DC09ECC9F3 /* Pods-Apatite-ApatiteUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 028DB8737064064AA6E09DE92768F3E2 /* Pods-Apatite-ApatiteUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A6B76CC013B98E2936B6355CE3FAD69 /* BLTNContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C25443F5D451EFD39E3777EEEBDA32 /* BLTNContainerView.swift */; };
+		7FB558100620CFFD8E4BA366C2CA7EE1 /* BulletinSwipeInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D285993668A69A21E4A484FB14A1BB03 /* BulletinSwipeInteractionController.swift */; };
+		7FF4F77DE1C0BF3E5197CA742DDFD6FA /* BonsaiController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D71BE28BBC4670C859258C1D02AA04 /* BonsaiController-dummy.m */; };
+		83E43B7FCF446A4D43BD6E0C0FBC1C7A /* UIButton+BackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6552D3EC91DF143FC38250BB1F2C3DCD /* UIButton+BackgroundColor.swift */; };
+		86ED9D7481710F0B88C3095B58821774 /* BLTNItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34473A5E663F4B4A25521F0452B5C6A7 /* BLTNItem.swift */; };
+		8703033B65D40787C7BC827039D35F46 /* Deprecations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18941DDBC9E08C09AE56A1187874A4D2 /* Deprecations.swift */; };
+		89F4EE49F68B1E908935CD63085CEC33 /* BLTNSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D3A6B137712FF5AE030757E30E9677 /* BLTNSpacing.swift */; };
+		915AC4004CE246B3088D3E002F3F6FFA /* HighlightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBD6AE679E141E665F65835E976BE5B /* HighlightButton.swift */; };
+		91927A72E429B655B3647FE7A95479C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		9352CD88E91162C8CB37678ECE9667CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		950CC0A7034C96EA7EB4B418FC02C874 /* BLTNInterfaceBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C2EE627853466513BEE2CEADB0B7A0 /* BLTNInterfaceBuilder.swift */; };
+		B7B33EA132F32201F759CCA6BAE00D72 /* BLTNViewPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D50347F9273D063ADBD63B10E6C3FB /* BLTNViewPosition.swift */; };
+		C88E99F8FDDDB00DD3DA5C7FF0C690CD /* UIColor+Luminance.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB973851D3F5CC9FBCB495D7D6B3A0ED /* UIColor+Luminance.swift */; };
+		C9C4F0512D311894394C39A719626449 /* RoundedViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422E8762BABDAB6AD384C15AB4A106A /* RoundedViewProtocol.swift */; };
+		CB75C8E096148DC8CC2BDCE4662A0F68 /* BonsaiController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EE5AB4B29DEACB7222941343D4BAE4C /* BonsaiController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB8010D31D5EAE7820F975C0F6B63B7B /* BLTNBoardSwiftSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = DFDCD441A2D3C1BACD5DCA49092CF107 /* BLTNBoardSwiftSupport.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DC0A43BF131B4A6C3A3C53F34CB2444E /* BonsaiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103CFAC0F0A75CA3567490A22107F55C /* BonsaiController.swift */; };
+		DC224047E3F50D14131DDB0558C2C215 /* BLTNActionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9973D913F7E09259DE9E4478176C796E /* BLTNActionItem.swift */; };
+		EA7C4E583BAD402C4D04F87AF5C6F2FB /* BubbleTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D34BCD1131F0ED83451FD789844A93F /* BubbleTransition.swift */; };
+		F049FC1C15E906610982B082B9628F42 /* BLTNHighlightButtonWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897E9F0F43DD0FD5DCC58933208A9F7F /* BLTNHighlightButtonWrapper.swift */; };
+		FBE309BEBDB50F0607D3E56BB111B310 /* BLTNPageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6442D927830170F90034C27EB2042E /* BLTNPageItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3960799AEFEC946B9CF30C2034E124BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FC272E5264771C98573AEA8FB92240D;
+			remoteInfo = BonsaiController;
+		};
+		944806D0560C97192DF6B62CF0FB7496 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FC272E5264771C98573AEA8FB92240D;
+			remoteInfo = BonsaiController;
+		};
+		B68C0AE13FFE244A7B415D8766B648EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CBE366D25C3692AAE548A9B678264C8;
+			remoteInfo = BulletinBoard;
+		};
+		DE4770551A3CC77E37BA24E0BB06DCD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5173E6D8D9B211F2366516427C9DEFE3;
+			remoteInfo = "Pods-Apatite";
+		};
+		EA343E4EB8F90AAE1F5241F6F4A856AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CBE366D25C3692AAE548A9B678264C8;
+			remoteInfo = BulletinBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		028DB8737064064AA6E09DE92768F3E2 /* Pods-Apatite-ApatiteUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Apatite-ApatiteUITests-umbrella.h"; sourceTree = "<group>"; };
+		0422E8762BABDAB6AD384C15AB4A106A /* RoundedViewProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RoundedViewProtocol.swift; path = Sources/Support/Views/Internal/ContinuousCorners/RoundedViewProtocol.swift; sourceTree = "<group>"; };
+		05CD76FCB36CA9BB9338F888E401B3CA /* BulletinViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BulletinViewController.swift; path = Sources/Support/BulletinViewController.swift; sourceTree = "<group>"; };
+		0D445791B76BC34C628411044A025EDD /* BulletinPresentationAnimationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BulletinPresentationAnimationController.swift; path = Sources/Support/Animations/BulletinPresentationAnimationController.swift; sourceTree = "<group>"; };
+		0DBAECF978A3E70778F7198B393D7EE6 /* BonsaiController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BonsaiController.debug.xcconfig; sourceTree = "<group>"; };
+		0DE1202E65A43C7B01C412BAA13FD429 /* ContinuousMaskLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContinuousMaskLayer.swift; path = Sources/Support/Views/Internal/ContinuousCorners/ContinuousMaskLayer.swift; sourceTree = "<group>"; };
+		103CFAC0F0A75CA3567490A22107F55C /* BonsaiController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BonsaiController.swift; path = BonsaiController/Classes/BonsaiController.swift; sourceTree = "<group>"; };
+		18941DDBC9E08C09AE56A1187874A4D2 /* Deprecations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecations.swift; path = Sources/Deprecations.swift; sourceTree = "<group>"; };
+		1DE0E9EA43F0DDD08D616A568C545F66 /* BonsaiController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BonsaiController-prefix.pch"; sourceTree = "<group>"; };
+		1E890AEA8DE6922C376CE53C3CBF4DB9 /* Pods-Apatite.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Apatite.modulemap"; sourceTree = "<group>"; };
+		22E6D1DA6E387AC2533DA11AC7259F5C /* Pods_Apatite_ApatiteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Apatite_ApatiteUITests.framework; path = "Pods-Apatite-ApatiteUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24BFEFF871065587D0AFD9725A297A97 /* BonsaiController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BonsaiController-Info.plist"; sourceTree = "<group>"; };
+		27B91A616D3E3D080255C6C93A591F62 /* BonsaiController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BonsaiController.framework; path = BonsaiController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		284D9E0EDB3CA8835E3916DFEA9A0771 /* BonsaiController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BonsaiController.modulemap; sourceTree = "<group>"; };
+		2EC8529840FAFD678B7F5144B2887300 /* BulletinCloseButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BulletinCloseButton.swift; path = Sources/Support/Views/Internal/BulletinCloseButton.swift; sourceTree = "<group>"; };
+		2FE4464B9891E4D78276633A563E439E /* Pods-ApatiteTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ApatiteTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		342A306C4C4C3904113AAEC6FCB1D3AE /* BLTNItemManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLTNItemManager.swift; path = Sources/BLTNItemManager.swift; sourceTree = "<group>"; };
+		34473A5E663F4B4A25521F0452B5C6A7 /* BLTNItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLTNItem.swift; path = Sources/Models/BLTNItem.swift; sourceTree = "<group>"; };
+		37065F71E6D03F675A7CEDCF45999185 /* Pods_Apatite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Apatite.framework; path = "Pods-Apatite.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		390B283CCF979EC6FBBEEEAD82A502A0 /* BLTNBackgroundViewStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLTNBackgroundViewStyle.swift; path = Sources/InterfaceBuilder/BLTNBackgroundViewStyle.swift; sourceTree = "<group>"; };
+		390B57BA8117CB76C9B83AFF2B8578F8 /* Pods-Apatite-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Apatite-dummy.m"; sourceTree = "<group>"; };
+		4EE5AB4B29DEACB7222941343D4BAE4C /* BonsaiController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BonsaiController-umbrella.h"; sourceTree = "<group>"; };
+		54DCBB966B9ABB8F8E6EE611EE21F192 /* Pods-ApatiteTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ApatiteTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5FBD6AE679E141E665F65835E976BE5B /* HighlightButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HighlightButton.swift; path = Sources/InterfaceBuilder/HighlightButton.swift; sourceTree = "<group>"; };
+		6552D3EC91DF143FC38250BB1F2C3DCD /* UIButton+BackgroundColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+BackgroundColor.swift"; path = "Sources/InterfaceBuilder/UIButton+BackgroundColor.swift"; sourceTree = "<group>"; };
+		67CE20C42CC93766A535B3E045E639B2 /* BulletinBoard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BulletinBoard.debug.xcconfig; sourceTree = "<group>"; };
+		67EBE0529CACFB050BD447F8D38B6DD3 /* Pods-ApatiteTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ApatiteTests.modulemap"; sourceTree = "<group>"; };
+		69C9FD80B9A9C66C88111C952B50E7E9 /* BulletinBoard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BulletinBoard-dummy.m"; sourceTree = "<group>"; };
+		6B18A4AF3C634A6FAEA5A4333DD653B0 /* Pods-Apatite-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Apatite-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6FD354AF5ACC35AB226FC1B14C42A2D4 /* BLTNTitleLabelContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLTNTitleLabelContainer.swift; path = Sources/InterfaceBuilder/BLTNTitleLabelContainer.swift; sourceTree = "<group>"; };
+		710A0467959971F8DBD0A3C78B17E7CE /* BonsaiController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BonsaiController.release.xcconfig; sourceTree = "<group>"; };
+		7366326C6CAD1136965DBBB313695B93 /* Pods-Apatite-ApatiteUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Apatite-ApatiteUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		75C2EE627853466513BEE2CEADB0B7A0 /* BLTNInterfaceBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLTNInterfaceBuilder.swift; path = Sources/InterfaceBuilder/BLTNInterfaceBuilder.swift; sourceTree = "<group>"; };
+		78816F567A4E4F7B5539B889479E0D22 /* BulletinBoard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BulletinBoard-prefix.pch"; sourceTree = "<group>"; };
+		7B4D8C2002E5CDD1075D93A26A2386BB /* Pods-Apatite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Apatite.release.xcconfig"; sourceTree = "<group>"; };
+		7F52227C12B5CE1555891B9DADC54E8B /* Pods-Apatite-ApatiteUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Apatite-ApatiteUITests-Info.plist"; sourceTree = "<group>"; };
+		84277768234AD1E871627D932523390C /* Pods-Apatite-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Apatite-umbrella.h"; sourceTree = "<group>"; };
+		88E0BBA82D7FD2A160E66C5B44E87686 /* Pods-ApatiteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ApatiteTests.release.xcconfig"; sourceTree = "<group>"; };
+		897E9F0F43DD0FD5DCC58933208A9F7F /* BLTNHighlightButtonWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLTNHighlightButtonWrapper.swift; path = Sources/InterfaceBuilder/BLTNHighlightButtonWrapper.swift; sourceTree = "<group>"; };
+		8B0D5B5F4037DCB2CF8357EB3F6E831A /* Pods-Apatite-ApatiteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Apatite-ApatiteUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8C0F10F276FB16CBB325D0EBB24816DB /* Pods-ApatiteTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ApatiteTests-umbrella.h"; sourceTree = "<group>"; };
+		8CDA764C9FDD2C3CFCCB5D7D5A0F8C65 /* BLTNItemAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLTNItemAppearance.swift; path = Sources/InterfaceBuilder/BLTNItemAppearance.swift; sourceTree = "<group>"; };
+		8F4E9C910CA1DF1ABEE0EC78EF575CAA /* BulletinBackgroundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BulletinBackgroundView.swift; path = Sources/Support/Views/Internal/BulletinBackgroundView.swift; sourceTree = "<group>"; };
+		90D0F4B210C7567F5BCCB75459BB08FC /* BulletinBoard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BulletinBoard.modulemap; sourceTree = "<group>"; };
+		91D71BE28BBC4670C859258C1D02AA04 /* BonsaiController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BonsaiController-dummy.m"; sourceTree = "<group>"; };
+		94D3A6B137712FF5AE030757E30E9677 /* BLTNSpacing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLTNSpacing.swift; path = Sources/InterfaceBuilder/BLTNSpacing.swift; sourceTree = "<group>"; };
+		958E3C723C2C8AEB76C0154157E50FDF /* Pods-ApatiteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ApatiteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		961F824477BA59DA49A1430318B5BB03 /* Pods-ApatiteTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ApatiteTests-Info.plist"; sourceTree = "<group>"; };
+		9973D913F7E09259DE9E4478176C796E /* BLTNActionItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLTNActionItem.swift; path = Sources/Models/BLTNActionItem.swift; sourceTree = "<group>"; };
+		9D34BCD1131F0ED83451FD789844A93F /* BubbleTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubbleTransition.swift; path = BonsaiController/Classes/BubbleTransition.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E3D38D031CF86292774140C413ADD7D /* Pods-Apatite-ApatiteUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Apatite-ApatiteUITests-frameworks.sh"; sourceTree = "<group>"; };
+		A01F1705F4E6A686DD961E6B00266E4C /* UIView+RoundedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+RoundedView.swift"; path = "Sources/Support/Views/Internal/ContinuousCorners/UIView+RoundedView.swift"; sourceTree = "<group>"; };
+		A40BF2847C885B02C18CE1573D80045C /* Pods-Apatite-ApatiteUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Apatite-ApatiteUITests.modulemap"; sourceTree = "<group>"; };
+		A5341AC3237B94214DC1AE6DB6EC6977 /* BulletinBoard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BulletinBoard-Info.plist"; sourceTree = "<group>"; };
+		AB973851D3F5CC9FBCB495D7D6B3A0ED /* UIColor+Luminance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Luminance.swift"; path = "Sources/Support/Helpers/UIColor+Luminance.swift"; sourceTree = "<group>"; };
+		AE401DCBA5B625A3478AAA52AA387262 /* BLTNItemManager+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BLTNItemManager+Helpers.swift"; path = "Sources/Support/Helpers/BLTNItemManager+Helpers.swift"; sourceTree = "<group>"; };
+		AFFB4DD01A6E9A712FF0C802B655C774 /* Pods-Apatite-ApatiteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Apatite-ApatiteUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B1D50347F9273D063ADBD63B10E6C3FB /* BLTNViewPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLTNViewPosition.swift; path = Sources/InterfaceBuilder/BLTNViewPosition.swift; sourceTree = "<group>"; };
+		B39E74BBC46F954F679F24DF9F25A0B1 /* Pods_ApatiteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ApatiteTests.framework; path = "Pods-ApatiteTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2C301DE9AB1AE8916240168A8C259BA /* BulletinBoard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BulletinBoard-umbrella.h"; sourceTree = "<group>"; };
+		C5FC4EC27B0970F708A6473BCFDA3C50 /* BLTNBoard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BLTNBoard.framework; path = BulletinBoard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC170B2268AEC0D7D3699540DF63B0D8 /* BulletinBoard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BulletinBoard.release.xcconfig; sourceTree = "<group>"; };
+		D1C25443F5D451EFD39E3777EEEBDA32 /* BLTNContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLTNContainerView.swift; path = Sources/InterfaceBuilder/BLTNContainerView.swift; sourceTree = "<group>"; };
+		D22E0815D4E80E2EFD4FE63CB9A2FE28 /* Pods-Apatite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Apatite.debug.xcconfig"; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D285993668A69A21E4A484FB14A1BB03 /* BulletinSwipeInteractionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BulletinSwipeInteractionController.swift; path = Sources/Support/Animations/BulletinSwipeInteractionController.swift; sourceTree = "<group>"; };
+		D5C3D2C906A3F287CA1A3CDE42EC5AD2 /* AnimationChain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationChain.swift; path = Sources/Support/Animations/AnimationChain.swift; sourceTree = "<group>"; };
+		D8E9340B15AC3D9CEA262373EB7EDA5F /* Pods-Apatite-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Apatite-acknowledgements.plist"; sourceTree = "<group>"; };
+		D9A6B581E6366EC0E5B7D17390023CF7 /* Pods-Apatite-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Apatite-Info.plist"; sourceTree = "<group>"; };
+		DA59EAE363D7490A13D397361A002C05 /* SlideInTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlideInTransition.swift; path = BonsaiController/Classes/SlideInTransition.swift; sourceTree = "<group>"; };
+		DB11C9C2DD5C47368863181A17031160 /* Pods-Apatite-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Apatite-frameworks.sh"; sourceTree = "<group>"; };
+		DFDCD441A2D3C1BACD5DCA49092CF107 /* BLTNBoardSwiftSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BLTNBoardSwiftSupport.h; path = Sources/Support/BLTNBoardSwiftSupport.h; sourceTree = "<group>"; };
+		E5142BB05D915C53DAC42DC00EAC7A52 /* BulletinDismissAnimationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BulletinDismissAnimationController.swift; path = Sources/Support/Animations/BulletinDismissAnimationController.swift; sourceTree = "<group>"; };
+		E53021394509DD0483FD67AD80AB0761 /* ActivityIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityIndicator.swift; path = Sources/Support/Views/Internal/ActivityIndicator.swift; sourceTree = "<group>"; };
+		E6F84F4EF245E2ED69969D9DD888AEB0 /* Pods-Apatite-ApatiteUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Apatite-ApatiteUITests-dummy.m"; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		ED6442D927830170F90034C27EB2042E /* BLTNPageItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLTNPageItem.swift; path = Sources/Models/BLTNPageItem.swift; sourceTree = "<group>"; };
+		F5E0050B064C9EA6D9238E34569ED30A /* Pods-Apatite-ApatiteUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Apatite-ApatiteUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F7FE5D90DB17C832B1D6C414AE14A5DB /* Pods-ApatiteTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ApatiteTests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A3B0E9CD3B61E9F924CC2CF8658714E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C0B66D9B27B7DBDC1D5B4097E9385E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4279B4B2B73DD0DA7AA85F5C89AFE92E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA30204743E8010466B3CC22787B711 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C8200104AE499DF4EC99AE23C1E60E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91927A72E429B655B3647FE7A95479C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F44958E5A623862EEB7B9F000BCE718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70CD18B564480ACF4BF94F581781B350 /* Foundation.framework in Frameworks */,
+				9352CD88E91162C8CB37678ECE9667CD /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99E295D6DD1D67B363589DEE081772BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7103CC1152883412341B8B544F2EA107 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17B883ED1246FE59424922181C5BF94C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5FC4EC27B0970F708A6473BCFDA3C50 /* BLTNBoard.framework */,
+				27B91A616D3E3D080255C6C93A591F62 /* BonsaiController.framework */,
+				37065F71E6D03F675A7CEDCF45999185 /* Pods_Apatite.framework */,
+				22E6D1DA6E387AC2533DA11AC7259F5C /* Pods_Apatite_ApatiteUITests.framework */,
+				B39E74BBC46F954F679F24DF9F25A0B1 /* Pods_ApatiteTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30BF9574D99D9469B5949E82E75A9277 /* Pods-ApatiteTests */ = {
+			isa = PBXGroup;
+			children = (
+				67EBE0529CACFB050BD447F8D38B6DD3 /* Pods-ApatiteTests.modulemap */,
+				54DCBB966B9ABB8F8E6EE611EE21F192 /* Pods-ApatiteTests-acknowledgements.markdown */,
+				2FE4464B9891E4D78276633A563E439E /* Pods-ApatiteTests-acknowledgements.plist */,
+				F7FE5D90DB17C832B1D6C414AE14A5DB /* Pods-ApatiteTests-dummy.m */,
+				961F824477BA59DA49A1430318B5BB03 /* Pods-ApatiteTests-Info.plist */,
+				8C0F10F276FB16CBB325D0EBB24816DB /* Pods-ApatiteTests-umbrella.h */,
+				958E3C723C2C8AEB76C0154157E50FDF /* Pods-ApatiteTests.debug.xcconfig */,
+				88E0BBA82D7FD2A160E66C5B44E87686 /* Pods-ApatiteTests.release.xcconfig */,
+			);
+			name = "Pods-ApatiteTests";
+			path = "Target Support Files/Pods-ApatiteTests";
+			sourceTree = "<group>";
+		};
+		42CBB63B9DF3F60AF016F8D6276C599A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBAA19329E270172257373A99F7DF300 /* BonsaiController */,
+				B507DE8B12C4C3DC350861760BE4C72F /* BulletinBoard */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4DFD8C323EE02CBC24F3727AC718CBF5 /* Pods-Apatite */ = {
+			isa = PBXGroup;
+			children = (
+				1E890AEA8DE6922C376CE53C3CBF4DB9 /* Pods-Apatite.modulemap */,
+				6B18A4AF3C634A6FAEA5A4333DD653B0 /* Pods-Apatite-acknowledgements.markdown */,
+				D8E9340B15AC3D9CEA262373EB7EDA5F /* Pods-Apatite-acknowledgements.plist */,
+				390B57BA8117CB76C9B83AFF2B8578F8 /* Pods-Apatite-dummy.m */,
+				DB11C9C2DD5C47368863181A17031160 /* Pods-Apatite-frameworks.sh */,
+				D9A6B581E6366EC0E5B7D17390023CF7 /* Pods-Apatite-Info.plist */,
+				84277768234AD1E871627D932523390C /* Pods-Apatite-umbrella.h */,
+				D22E0815D4E80E2EFD4FE63CB9A2FE28 /* Pods-Apatite.debug.xcconfig */,
+				7B4D8C2002E5CDD1075D93A26A2386BB /* Pods-Apatite.release.xcconfig */,
+			);
+			name = "Pods-Apatite";
+			path = "Target Support Files/Pods-Apatite";
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6CF2CC4E3226B788CF49E550A6CF0A5E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				284D9E0EDB3CA8835E3916DFEA9A0771 /* BonsaiController.modulemap */,
+				91D71BE28BBC4670C859258C1D02AA04 /* BonsaiController-dummy.m */,
+				24BFEFF871065587D0AFD9725A297A97 /* BonsaiController-Info.plist */,
+				1DE0E9EA43F0DDD08D616A568C545F66 /* BonsaiController-prefix.pch */,
+				4EE5AB4B29DEACB7222941343D4BAE4C /* BonsaiController-umbrella.h */,
+				0DBAECF978A3E70778F7198B393D7EE6 /* BonsaiController.debug.xcconfig */,
+				710A0467959971F8DBD0A3C78B17E7CE /* BonsaiController.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BonsaiController";
+			sourceTree = "<group>";
+		};
+		93A6E151BE80757469006827B1CFACCE /* Pods-Apatite-ApatiteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A40BF2847C885B02C18CE1573D80045C /* Pods-Apatite-ApatiteUITests.modulemap */,
+				F5E0050B064C9EA6D9238E34569ED30A /* Pods-Apatite-ApatiteUITests-acknowledgements.markdown */,
+				7366326C6CAD1136965DBBB313695B93 /* Pods-Apatite-ApatiteUITests-acknowledgements.plist */,
+				E6F84F4EF245E2ED69969D9DD888AEB0 /* Pods-Apatite-ApatiteUITests-dummy.m */,
+				9E3D38D031CF86292774140C413ADD7D /* Pods-Apatite-ApatiteUITests-frameworks.sh */,
+				7F52227C12B5CE1555891B9DADC54E8B /* Pods-Apatite-ApatiteUITests-Info.plist */,
+				028DB8737064064AA6E09DE92768F3E2 /* Pods-Apatite-ApatiteUITests-umbrella.h */,
+				AFFB4DD01A6E9A712FF0C802B655C774 /* Pods-Apatite-ApatiteUITests.debug.xcconfig */,
+				8B0D5B5F4037DCB2CF8357EB3F6E831A /* Pods-Apatite-ApatiteUITests.release.xcconfig */,
+			);
+			name = "Pods-Apatite-ApatiteUITests";
+			path = "Target Support Files/Pods-Apatite-ApatiteUITests";
+			sourceTree = "<group>";
+		};
+		B507DE8B12C4C3DC350861760BE4C72F /* BulletinBoard */ = {
+			isa = PBXGroup;
+			children = (
+				E53021394509DD0483FD67AD80AB0761 /* ActivityIndicator.swift */,
+				D5C3D2C906A3F287CA1A3CDE42EC5AD2 /* AnimationChain.swift */,
+				9973D913F7E09259DE9E4478176C796E /* BLTNActionItem.swift */,
+				390B283CCF979EC6FBBEEEAD82A502A0 /* BLTNBackgroundViewStyle.swift */,
+				DFDCD441A2D3C1BACD5DCA49092CF107 /* BLTNBoardSwiftSupport.h */,
+				D1C25443F5D451EFD39E3777EEEBDA32 /* BLTNContainerView.swift */,
+				897E9F0F43DD0FD5DCC58933208A9F7F /* BLTNHighlightButtonWrapper.swift */,
+				75C2EE627853466513BEE2CEADB0B7A0 /* BLTNInterfaceBuilder.swift */,
+				34473A5E663F4B4A25521F0452B5C6A7 /* BLTNItem.swift */,
+				8CDA764C9FDD2C3CFCCB5D7D5A0F8C65 /* BLTNItemAppearance.swift */,
+				342A306C4C4C3904113AAEC6FCB1D3AE /* BLTNItemManager.swift */,
+				AE401DCBA5B625A3478AAA52AA387262 /* BLTNItemManager+Helpers.swift */,
+				ED6442D927830170F90034C27EB2042E /* BLTNPageItem.swift */,
+				94D3A6B137712FF5AE030757E30E9677 /* BLTNSpacing.swift */,
+				6FD354AF5ACC35AB226FC1B14C42A2D4 /* BLTNTitleLabelContainer.swift */,
+				B1D50347F9273D063ADBD63B10E6C3FB /* BLTNViewPosition.swift */,
+				8F4E9C910CA1DF1ABEE0EC78EF575CAA /* BulletinBackgroundView.swift */,
+				2EC8529840FAFD678B7F5144B2887300 /* BulletinCloseButton.swift */,
+				E5142BB05D915C53DAC42DC00EAC7A52 /* BulletinDismissAnimationController.swift */,
+				0D445791B76BC34C628411044A025EDD /* BulletinPresentationAnimationController.swift */,
+				D285993668A69A21E4A484FB14A1BB03 /* BulletinSwipeInteractionController.swift */,
+				05CD76FCB36CA9BB9338F888E401B3CA /* BulletinViewController.swift */,
+				0DE1202E65A43C7B01C412BAA13FD429 /* ContinuousMaskLayer.swift */,
+				18941DDBC9E08C09AE56A1187874A4D2 /* Deprecations.swift */,
+				5FBD6AE679E141E665F65835E976BE5B /* HighlightButton.swift */,
+				0422E8762BABDAB6AD384C15AB4A106A /* RoundedViewProtocol.swift */,
+				6552D3EC91DF143FC38250BB1F2C3DCD /* UIButton+BackgroundColor.swift */,
+				AB973851D3F5CC9FBCB495D7D6B3A0ED /* UIColor+Luminance.swift */,
+				A01F1705F4E6A686DD961E6B00266E4C /* UIView+RoundedView.swift */,
+				FBA53C74783824332A1E28BEC1A56220 /* Support Files */,
+			);
+			name = BulletinBoard;
+			path = BulletinBoard;
+			sourceTree = "<group>";
+		};
+		B599ADD916647153D73833BD7761CCFA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DFD8C323EE02CBC24F3727AC718CBF5 /* Pods-Apatite */,
+				93A6E151BE80757469006827B1CFACCE /* Pods-Apatite-ApatiteUITests */,
+				30BF9574D99D9469B5949E82E75A9277 /* Pods-ApatiteTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				42CBB63B9DF3F60AF016F8D6276C599A /* Pods */,
+				17B883ED1246FE59424922181C5BF94C /* Products */,
+				B599ADD916647153D73833BD7761CCFA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		EBAA19329E270172257373A99F7DF300 /* BonsaiController */ = {
+			isa = PBXGroup;
+			children = (
+				103CFAC0F0A75CA3567490A22107F55C /* BonsaiController.swift */,
+				9D34BCD1131F0ED83451FD789844A93F /* BubbleTransition.swift */,
+				DA59EAE363D7490A13D397361A002C05 /* SlideInTransition.swift */,
+				6CF2CC4E3226B788CF49E550A6CF0A5E /* Support Files */,
+			);
+			name = BonsaiController;
+			path = BonsaiController;
+			sourceTree = "<group>";
+		};
+		FBA53C74783824332A1E28BEC1A56220 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				90D0F4B210C7567F5BCCB75459BB08FC /* BulletinBoard.modulemap */,
+				69C9FD80B9A9C66C88111C952B50E7E9 /* BulletinBoard-dummy.m */,
+				A5341AC3237B94214DC1AE6DB6EC6977 /* BulletinBoard-Info.plist */,
+				78816F567A4E4F7B5539B889479E0D22 /* BulletinBoard-prefix.pch */,
+				C2C301DE9AB1AE8916240168A8C259BA /* BulletinBoard-umbrella.h */,
+				67CE20C42CC93766A535B3E045E639B2 /* BulletinBoard.debug.xcconfig */,
+				CC170B2268AEC0D7D3699540DF63B0D8 /* BulletinBoard.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BulletinBoard";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7185561DE34877748AAE048D02B0540B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8010D31D5EAE7820F975C0F6B63B7B /* BLTNBoardSwiftSupport.h in Headers */,
+				3C5503601AD53E1A2623B04DB6E1695B /* BulletinBoard-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AC55C921F4A5338B8A3F138CD9F16CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44367DC5AA41CEED8E506F1B764F1DFF /* Pods-ApatiteTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B45AC7DCD2B3AD633D2A9E79D681D7BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB75C8E096148DC8CC2BDCE4662A0F68 /* BonsaiController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0DED008F9478DCCE2094867F965D284 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F796B337D17608ED2AFF29BC4F7FEC8 /* Pods-Apatite-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E34E13CFC398EE76650671417A22C121 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72ADDB23CE78B548C5C9E9DC09ECC9F3 /* Pods-Apatite-ApatiteUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2FC272E5264771C98573AEA8FB92240D /* BonsaiController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 439B023EB0FA3E4012D3B860EEFD211C /* Build configuration list for PBXNativeTarget "BonsaiController" */;
+			buildPhases = (
+				B45AC7DCD2B3AD633D2A9E79D681D7BB /* Headers */,
+				9870520D6705E305D300E0FE04C59FB5 /* Sources */,
+				2A3B0E9CD3B61E9F924CC2CF8658714E /* Frameworks */,
+				E257465CB68D92F9EBEF0EA650815D16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BonsaiController;
+			productName = BonsaiController;
+			productReference = 27B91A616D3E3D080255C6C93A591F62 /* BonsaiController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3CBE366D25C3692AAE548A9B678264C8 /* BulletinBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD3DBBD3F567C621752E83AAC2C319A6 /* Build configuration list for PBXNativeTarget "BulletinBoard" */;
+			buildPhases = (
+				7185561DE34877748AAE048D02B0540B /* Headers */,
+				6A780C4DB693BE08CCD23F8E1E1C11E0 /* Sources */,
+				6F44958E5A623862EEB7B9F000BCE718 /* Frameworks */,
+				068CA6102AB840FB1F51D457696D105B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BulletinBoard;
+			productName = BulletinBoard;
+			productReference = C5FC4EC27B0970F708A6473BCFDA3C50 /* BLTNBoard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5173E6D8D9B211F2366516427C9DEFE3 /* Pods-Apatite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C69EE8F662F32FC6F5278432C928DBE /* Build configuration list for PBXNativeTarget "Pods-Apatite" */;
+			buildPhases = (
+				E0DED008F9478DCCE2094867F965D284 /* Headers */,
+				AA66F9AAE57C02FD0D1A8408515853D0 /* Sources */,
+				6C8200104AE499DF4EC99AE23C1E60E5 /* Frameworks */,
+				F0DF0558AE062C2732C0AE0055383510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD874E6D5C0770FDB0764E540EB5556E /* PBXTargetDependency */,
+				DA8FCC13F992B79B2AC479108B5D0C0F /* PBXTargetDependency */,
+			);
+			name = "Pods-Apatite";
+			productName = "Pods-Apatite";
+			productReference = 37065F71E6D03F675A7CEDCF45999185 /* Pods_Apatite.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6F9E0730A8A11B7B91C9FFE217695E7C /* Pods-ApatiteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57B87F61AA4F2101FAA92281B64D8B09 /* Build configuration list for PBXNativeTarget "Pods-ApatiteTests" */;
+			buildPhases = (
+				8AC55C921F4A5338B8A3F138CD9F16CF /* Headers */,
+				4DFBF1FB9ADC3A0F35472DAC02A68826 /* Sources */,
+				4279B4B2B73DD0DA7AA85F5C89AFE92E /* Frameworks */,
+				0AC1ABE1255A0977D1932C6B36971947 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC065F33FB0376D9BBEE3D9D73998ADC /* PBXTargetDependency */,
+			);
+			name = "Pods-ApatiteTests";
+			productName = "Pods-ApatiteTests";
+			productReference = B39E74BBC46F954F679F24DF9F25A0B1 /* Pods_ApatiteTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		881A742737E00AD817A6E04F61EA9984 /* Pods-Apatite-ApatiteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F80AAA3CF6AC3C74B4E6999D76A08BE /* Build configuration list for PBXNativeTarget "Pods-Apatite-ApatiteUITests" */;
+			buildPhases = (
+				E34E13CFC398EE76650671417A22C121 /* Headers */,
+				0127337ED1FF70BC8C238AD3AE2A6F86 /* Sources */,
+				99E295D6DD1D67B363589DEE081772BE /* Frameworks */,
+				C4868ADC64259BEA5CB87ED9E09BC9D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				643E8FBE21757B837C08B568E4D73662 /* PBXTargetDependency */,
+				0108444818C03DC63F8848C2FBFC7C5D /* PBXTargetDependency */,
+			);
+			name = "Pods-Apatite-ApatiteUITests";
+			productName = "Pods-Apatite-ApatiteUITests";
+			productReference = 22E6D1DA6E387AC2533DA11AC7259F5C /* Pods_Apatite_ApatiteUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 17B883ED1246FE59424922181C5BF94C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FC272E5264771C98573AEA8FB92240D /* BonsaiController */,
+				3CBE366D25C3692AAE548A9B678264C8 /* BulletinBoard */,
+				5173E6D8D9B211F2366516427C9DEFE3 /* Pods-Apatite */,
+				881A742737E00AD817A6E04F61EA9984 /* Pods-Apatite-ApatiteUITests */,
+				6F9E0730A8A11B7B91C9FFE217695E7C /* Pods-ApatiteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		068CA6102AB840FB1F51D457696D105B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC1ABE1255A0977D1932C6B36971947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4868ADC64259BEA5CB87ED9E09BC9D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E257465CB68D92F9EBEF0EA650815D16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0DF0558AE062C2732C0AE0055383510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0127337ED1FF70BC8C238AD3AE2A6F86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ECD1E4F43F694BF8C73979FB530AC47 /* Pods-Apatite-ApatiteUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DFBF1FB9ADC3A0F35472DAC02A68826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00856C14219CAD68477D7391D857261F /* Pods-ApatiteTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A780C4DB693BE08CCD23F8E1E1C11E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AC225342F4949A243D0AC02805E3FB4 /* ActivityIndicator.swift in Sources */,
+				55E03F10F4196ACB82F3CF1EE8A80425 /* AnimationChain.swift in Sources */,
+				DC224047E3F50D14131DDB0558C2C215 /* BLTNActionItem.swift in Sources */,
+				63453488DABC83B1C3BA9DC8C9EE27E4 /* BLTNBackgroundViewStyle.swift in Sources */,
+				7A6B76CC013B98E2936B6355CE3FAD69 /* BLTNContainerView.swift in Sources */,
+				F049FC1C15E906610982B082B9628F42 /* BLTNHighlightButtonWrapper.swift in Sources */,
+				950CC0A7034C96EA7EB4B418FC02C874 /* BLTNInterfaceBuilder.swift in Sources */,
+				86ED9D7481710F0B88C3095B58821774 /* BLTNItem.swift in Sources */,
+				5539DEA50DF15BAB199475748B5867AE /* BLTNItemAppearance.swift in Sources */,
+				0C2C9C5D42BB292FF7FB3BD4F6809436 /* BLTNItemManager+Helpers.swift in Sources */,
+				426FB778F42F7A71AFE6E4E1500F59B8 /* BLTNItemManager.swift in Sources */,
+				FBE309BEBDB50F0607D3E56BB111B310 /* BLTNPageItem.swift in Sources */,
+				89F4EE49F68B1E908935CD63085CEC33 /* BLTNSpacing.swift in Sources */,
+				0982556682E8F4D0B0CF9919553175F1 /* BLTNTitleLabelContainer.swift in Sources */,
+				B7B33EA132F32201F759CCA6BAE00D72 /* BLTNViewPosition.swift in Sources */,
+				61D89F814CE3E175EFEAD9123B2FD0D4 /* BulletinBackgroundView.swift in Sources */,
+				68A9160573FEA726120F68A374AE227C /* BulletinBoard-dummy.m in Sources */,
+				19873951184EA4A8B280DCBAB5D05F86 /* BulletinCloseButton.swift in Sources */,
+				5D38B95F9FD5F4C3CCA3E5CE016470F3 /* BulletinDismissAnimationController.swift in Sources */,
+				631FF66C3764B4411BD5D0B023BDE35A /* BulletinPresentationAnimationController.swift in Sources */,
+				7FB558100620CFFD8E4BA366C2CA7EE1 /* BulletinSwipeInteractionController.swift in Sources */,
+				3E275340AA7E04E904203723E7F73B43 /* BulletinViewController.swift in Sources */,
+				3BC29E999BEA31FDA07B9CCD73B5CF54 /* ContinuousMaskLayer.swift in Sources */,
+				8703033B65D40787C7BC827039D35F46 /* Deprecations.swift in Sources */,
+				915AC4004CE246B3088D3E002F3F6FFA /* HighlightButton.swift in Sources */,
+				C9C4F0512D311894394C39A719626449 /* RoundedViewProtocol.swift in Sources */,
+				83E43B7FCF446A4D43BD6E0C0FBC1C7A /* UIButton+BackgroundColor.swift in Sources */,
+				C88E99F8FDDDB00DD3DA5C7FF0C690CD /* UIColor+Luminance.swift in Sources */,
+				3F7DC59656D0DDA71E371D281B69EA08 /* UIView+RoundedView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9870520D6705E305D300E0FE04C59FB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FF4F77DE1C0BF3E5197CA742DDFD6FA /* BonsaiController-dummy.m in Sources */,
+				DC0A43BF131B4A6C3A3C53F34CB2444E /* BonsaiController.swift in Sources */,
+				EA7C4E583BAD402C4D04F87AF5C6F2FB /* BubbleTransition.swift in Sources */,
+				29DE6DB6FCCAB675EDB8C9967EEBB8E3 /* SlideInTransition.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA66F9AAE57C02FD0D1A8408515853D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				106DAE62DB94F423613118952C41F25F /* Pods-Apatite-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0108444818C03DC63F8848C2FBFC7C5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BulletinBoard;
+			target = 3CBE366D25C3692AAE548A9B678264C8 /* BulletinBoard */;
+			targetProxy = EA343E4EB8F90AAE1F5241F6F4A856AC /* PBXContainerItemProxy */;
+		};
+		643E8FBE21757B837C08B568E4D73662 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BonsaiController;
+			target = 2FC272E5264771C98573AEA8FB92240D /* BonsaiController */;
+			targetProxy = 944806D0560C97192DF6B62CF0FB7496 /* PBXContainerItemProxy */;
+		};
+		DA8FCC13F992B79B2AC479108B5D0C0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BulletinBoard;
+			target = 3CBE366D25C3692AAE548A9B678264C8 /* BulletinBoard */;
+			targetProxy = B68C0AE13FFE244A7B415D8766B648EF /* PBXContainerItemProxy */;
+		};
+		DD874E6D5C0770FDB0764E540EB5556E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BonsaiController;
+			target = 2FC272E5264771C98573AEA8FB92240D /* BonsaiController */;
+			targetProxy = 3960799AEFEC946B9CF30C2034E124BE /* PBXContainerItemProxy */;
+		};
+		FC065F33FB0376D9BBEE3D9D73998ADC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Apatite";
+			target = 5173E6D8D9B211F2366516427C9DEFE3 /* Pods-Apatite */;
+			targetProxy = DE4770551A3CC77E37BA24E0BB06DCD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		120BE0E3B8DCB6D4D96DAC0ADC88CD1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88E0BBA82D7FD2A160E66C5B44E87686 /* Pods-ApatiteTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ApatiteTests/Pods-ApatiteTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ApatiteTests/Pods-ApatiteTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		27A118D6337A17C49F0199C4F36F1BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B4D8C2002E5CDD1075D93A26A2386BB /* Pods-Apatite.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Apatite/Pods-Apatite-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Apatite/Pods-Apatite.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71243899B61152433AAE34EE86456EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		75D70EEEA0A456E14F7338A7F342964E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8A3DE52626E7DAA3FB09B53B78DE5C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 958E3C723C2C8AEB76C0154157E50FDF /* Pods-ApatiteTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ApatiteTests/Pods-ApatiteTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ApatiteTests/Pods-ApatiteTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8CF4F40D1683000C182C47AA1F514C49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D22E0815D4E80E2EFD4FE63CB9A2FE28 /* Pods-Apatite.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Apatite/Pods-Apatite-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Apatite/Pods-Apatite.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		900B89E17C56ACA967D6BC9F67B51707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC170B2268AEC0D7D3699540DF63B0D8 /* BulletinBoard.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BulletinBoard/BulletinBoard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BulletinBoard/BulletinBoard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BulletinBoard/BulletinBoard.modulemap";
+				PRODUCT_MODULE_NAME = BLTNBoard;
+				PRODUCT_NAME = BLTNBoard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A0358F9BA873840B636C473F9B8335CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B0D5B5F4037DCB2CF8357EB3F6E831A /* Pods-Apatite-ApatiteUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Apatite-ApatiteUITests/Pods-Apatite-ApatiteUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Apatite-ApatiteUITests/Pods-Apatite-ApatiteUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A16693E34191A0347695726E4D1E63FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DBAECF978A3E70778F7198B393D7EE6 /* BonsaiController.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BonsaiController/BonsaiController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BonsaiController/BonsaiController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BonsaiController/BonsaiController.modulemap";
+				PRODUCT_MODULE_NAME = BonsaiController;
+				PRODUCT_NAME = BonsaiController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D01989FAC4E1B019DC916B7DF8AB7169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67CE20C42CC93766A535B3E045E639B2 /* BulletinBoard.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BulletinBoard/BulletinBoard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BulletinBoard/BulletinBoard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BulletinBoard/BulletinBoard.modulemap";
+				PRODUCT_MODULE_NAME = BLTNBoard;
+				PRODUCT_NAME = BLTNBoard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DF51148942398806BE19B3CA94C79655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 710A0467959971F8DBD0A3C78B17E7CE /* BonsaiController.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BonsaiController/BonsaiController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BonsaiController/BonsaiController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BonsaiController/BonsaiController.modulemap";
+				PRODUCT_MODULE_NAME = BonsaiController;
+				PRODUCT_NAME = BonsaiController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FCCF71561ACAF197E5C80DFCA66403F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFFB4DD01A6E9A712FF0C802B655C774 /* Pods-Apatite-ApatiteUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Apatite-ApatiteUITests/Pods-Apatite-ApatiteUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Apatite-ApatiteUITests/Pods-Apatite-ApatiteUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		439B023EB0FA3E4012D3B860EEFD211C /* Build configuration list for PBXNativeTarget "BonsaiController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A16693E34191A0347695726E4D1E63FB /* Debug */,
+				DF51148942398806BE19B3CA94C79655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D70EEEA0A456E14F7338A7F342964E /* Debug */,
+				71243899B61152433AAE34EE86456EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57B87F61AA4F2101FAA92281B64D8B09 /* Build configuration list for PBXNativeTarget "Pods-ApatiteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3DE52626E7DAA3FB09B53B78DE5C11 /* Debug */,
+				120BE0E3B8DCB6D4D96DAC0ADC88CD1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F80AAA3CF6AC3C74B4E6999D76A08BE /* Build configuration list for PBXNativeTarget "Pods-Apatite-ApatiteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCCF71561ACAF197E5C80DFCA66403F0 /* Debug */,
+				A0358F9BA873840B636C473F9B8335CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C69EE8F662F32FC6F5278432C928DBE /* Build configuration list for PBXNativeTarget "Pods-Apatite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF4F40D1683000C182C47AA1F514C49 /* Debug */,
+				27A118D6337A17C49F0199C4F36F1BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD3DBBD3F567C621752E83AAC2C319A6 /* Build configuration list for PBXNativeTarget "BulletinBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01989FAC4E1B019DC916B7DF8AB7169 /* Debug */,
+				900B89E17C56ACA967D6BC9F67B51707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

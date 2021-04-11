@@ -35,7 +35,7 @@ extension SavedPlaceViewController: UICollectionViewDataSource {
         cell.layer.shadowColor = UIColor.black.cgColor
         cell.layer.shadowOffset = CGSize(width: 0, height: 1)
         cell.layer.shadowRadius = 1.5
-        cell.layer.shadowOpacity = 1
+        cell.layer.shadowOpacity = 0.3
         cell.layer.masksToBounds = false
         cell.clipsToBounds = false
         
