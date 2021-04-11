@@ -1397,11 +1397,6 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="16F-LW-LlO">
-                                <rect key="frame" x="-2" y="-18" width="392" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" name="ApatiteBlue"/>
-                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6sL-Yy-8R5"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1446,14 +1441,13 @@
         <!--Discover-->
         <scene sceneID="Vdc-ds-hhn">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="CBK-YU-9mC" customClass="DiscoverNavigationController" customModule="Apatite" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="CBK-YU-9mC" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Discover" image="magnifyingglass" catalog="system" id="MNS-RM-BJy"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="28v-76-bfu">
                         <rect key="frame" x="0.0" y="44" width="390" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" name="ApatiteBlue"/>
-                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="barTintColor" name="ApatiteBlue"/>
                         <textAttributes key="largeTitleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1529,7 +1523,7 @@ of coconut milk and Minangkabau secret spice.</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="jwt-Gm-ssZ">
-                                <rect key="frame" x="40" y="182" width="310" height="579"/>
+                                <rect key="frame" x="40" y="130" width="310" height="631"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="5zF-kP-KlC">
                                     <size key="itemSize" width="153" height="196"/>
@@ -1545,7 +1539,7 @@ of coconut milk and Minangkabau secret spice.</string>
                                             <rect key="frame" x="0.0" y="0.0" width="130" height="175"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hdp-y2-LPq">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hdp-y2-LPq">
                                                     <rect key="frame" x="0.0" y="0.0" width="130" height="130"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="130" id="PTE-OI-I6j"/>
@@ -1592,31 +1586,13 @@ of coconut milk and Minangkabau secret spice.</string>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Warung Universe Menu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pg5-zs-EL2">
-                                <rect key="frame" x="97.666666666666686" y="103" width="195" height="22"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tm1-rW-T4U">
-                                <rect key="frame" x="119.66666666666669" y="127.00000000000001" width="151" height="33.666666666666671"/>
-                                <string key="text">Jl. Antariksa Barat 157
-pk. 00.00 - 06.00 WIB</string>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
-                                <color key="textColor" systemColor="systemGray2Color"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="qVr-C9-H0m"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="jwt-Gm-ssZ" firstAttribute="leading" secondItem="qVr-C9-H0m" secondAttribute="leading" constant="40" id="8DD-ak-wuT"/>
                             <constraint firstItem="qVr-C9-H0m" firstAttribute="bottom" secondItem="jwt-Gm-ssZ" secondAttribute="bottom" id="Adl-MI-ByT"/>
-                            <constraint firstItem="Tm1-rW-T4U" firstAttribute="top" secondItem="pg5-zs-EL2" secondAttribute="bottom" constant="2" id="CKr-ac-MW2"/>
-                            <constraint firstItem="Tm1-rW-T4U" firstAttribute="centerX" secondItem="KBS-4b-dMs" secondAttribute="centerX" id="RBt-sU-kzp"/>
-                            <constraint firstItem="jwt-Gm-ssZ" firstAttribute="top" secondItem="Tm1-rW-T4U" secondAttribute="bottom" constant="21.333333333333314" id="VWL-To-tnV"/>
-                            <constraint firstItem="pg5-zs-EL2" firstAttribute="centerX" secondItem="KBS-4b-dMs" secondAttribute="centerX" id="dhu-wL-wTW"/>
-                            <constraint firstItem="pg5-zs-EL2" firstAttribute="top" secondItem="qVr-C9-H0m" secondAttribute="top" constant="15" id="u6q-dR-cKO"/>
+                            <constraint firstItem="jwt-Gm-ssZ" firstAttribute="top" secondItem="qVr-C9-H0m" secondAttribute="top" constant="42" id="Yxa-UR-HnN"/>
                             <constraint firstItem="qVr-C9-H0m" firstAttribute="trailing" secondItem="jwt-Gm-ssZ" secondAttribute="trailing" constant="40" id="zJX-By-1o9"/>
                         </constraints>
                     </view>
@@ -1628,11 +1604,15 @@ pk. 00.00 - 06.00 WIB</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UvI-i0-YDJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
+<<<<<<< HEAD
 <<<<<<< Updated upstream
             <point key="canvasLocation" x="3973.8461538461538" y="-420.14218009478674"/>
 =======
             <point key="canvasLocation" x="3974" y="-486"/>
 >>>>>>> Stashed changes
+=======
+            <point key="canvasLocation" x="3974" y="-420"/>
+>>>>>>> parent of 34aa5ab (update done)
         </scene>
         <!--Write a review-->
         <scene sceneID="sek-Bn-gwk">
@@ -1643,7 +1623,7 @@ pk. 00.00 - 06.00 WIB</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Rg-ZM-QLj">
-                                <rect key="frame" x="10" y="335.33333333333331" width="370" height="1"/>
+                                <rect key="frame" x="10" y="338" width="370" height="1"/>
                                 <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="4wy-Wh-1Os"/>
@@ -1653,7 +1633,7 @@ pk. 00.00 - 06.00 WIB</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FHc-nl-OOb">
-                                <rect key="frame" x="122.66666666666669" y="108" width="145" height="27"/>
+                                <rect key="frame" x="122.66666666666669" y="110.66666666666667" width="145" height="27.000000000000014"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="GC7-vV-Dbj">
                                         <rect key="frame" x="0.0" y="-0.33333333333333215" width="29" height="26.666666666666664"/>
@@ -1698,13 +1678,13 @@ pk. 00.00 - 06.00 WIB</string>
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap a Star to Rate " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z67-p1-mLG">
-                                <rect key="frame" x="139.33333333333334" y="145" width="111.33333333333334" height="15.666666666666657"/>
+                                <rect key="frame" x="139.33333333333334" y="147.66666666666666" width="111.33333333333334" height="15.666666666666657"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" systemColor="systemGray2Color"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="8YB-qh-NSK">
-                                <rect key="frame" x="10" y="188" width="370" height="85"/>
+                                <rect key="frame" x="10" y="190.66666666666666" width="370" height="84.999999999999972"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="restaurant1" translatesAutoresizingMaskIntoConstraints="NO" id="lAQ-9l-WNz">
                                         <rect key="frame" x="0.0" y="0.0" width="85" height="85"/>
@@ -1764,7 +1744,7 @@ pk. 00.00 - 06.00 WIB</string>
                                 </constraints>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="41P-Zw-zU2">
-                                <rect key="frame" x="10" y="288" width="370" height="1"/>
+                                <rect key="frame" x="10" y="290.66666666666669" width="370" height="1"/>
                                 <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="5zq-lh-QxD"/>
@@ -1774,13 +1754,13 @@ pk. 00.00 - 06.00 WIB</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yTd-Lb-Hj5">
-                                <rect key="frame" x="11.000000000000002" y="304" width="31.666666666666671" height="19.333333333333314"/>
+                                <rect key="frame" x="11.000000000000002" y="306.66666666666669" width="31.666666666666671" height="19.333333333333314"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="NkH-kW-oqi">
-                                <rect key="frame" x="11" y="371.33333333333331" width="368" height="126"/>
+                                <rect key="frame" x="11" y="374" width="368" height="126"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="126" id="Ow9-IU-kTP"/>
@@ -1790,7 +1770,7 @@ pk. 00.00 - 06.00 WIB</string>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Review (Optional)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dpp-M4-8u1">
-                                <rect key="frame" x="11" y="344.33333333333331" width="128.33333333333334" height="19.333333333333314"/>
+                                <rect key="frame" x="11" y="347" width="128.33333333333334" height="19.333333333333314"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1818,7 +1798,6 @@ pk. 00.00 - 06.00 WIB</string>
                             <constraint firstItem="Dpp-M4-8u1" firstAttribute="leading" secondItem="twj-Su-aQK" secondAttribute="leading" constant="11" id="Jug-Mo-k3o"/>
                             <constraint firstItem="NkH-kW-oqi" firstAttribute="top" secondItem="Dpp-M4-8u1" secondAttribute="bottom" constant="7.6666666666666856" id="Ku3-ob-0pO"/>
                             <constraint firstItem="NkH-kW-oqi" firstAttribute="leading" secondItem="twj-Su-aQK" secondAttribute="leading" constant="11" id="Sw1-ma-Ib6"/>
-                            <constraint firstItem="FHc-nl-OOb" firstAttribute="top" secondItem="twj-Su-aQK" secondAttribute="top" constant="20" id="Wep-VT-pKs"/>
                             <constraint firstItem="twj-Su-aQK" firstAttribute="trailing" secondItem="8YB-qh-NSK" secondAttribute="trailing" constant="10" id="XyL-Lp-MdG"/>
                             <constraint firstItem="twj-Su-aQK" firstAttribute="trailing" secondItem="NkH-kW-oqi" secondAttribute="trailing" constant="11" id="cdQ-4M-8HK"/>
                             <constraint firstItem="3gl-NI-urB" firstAttribute="leading" secondItem="yTd-Lb-Hj5" secondAttribute="trailing" constant="14.333333333333329" id="dAg-hf-V1U"/>
@@ -1827,6 +1806,7 @@ pk. 00.00 - 06.00 WIB</string>
                             <constraint firstItem="2Rg-ZM-QLj" firstAttribute="leading" secondItem="Qhr-1e-OMd" secondAttribute="leading" constant="10" id="j89-XK-kkZ"/>
                             <constraint firstItem="Z67-p1-mLG" firstAttribute="top" secondItem="FHc-nl-OOb" secondAttribute="bottom" constant="10" id="mAI-tz-Juz"/>
                             <constraint firstItem="2Rg-ZM-QLj" firstAttribute="top" secondItem="3gl-NI-urB" secondAttribute="bottom" constant="5" id="mde-9G-obl"/>
+                            <constraint firstItem="FHc-nl-OOb" firstAttribute="centerY" secondItem="Qhr-1e-OMd" secondAttribute="centerY" constant="-298" id="vF5-UQ-I8O"/>
                             <constraint firstItem="FHc-nl-OOb" firstAttribute="centerX" secondItem="Qhr-1e-OMd" secondAttribute="centerX" id="yOi-0D-xmD"/>
                         </constraints>
                     </view>
@@ -1865,7 +1845,7 @@ pk. 00.00 - 06.00 WIB</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="xdb-wX-2Ox"/>
+        <segue reference="uJd-Yh-Lyb"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="WarungUniverse" width="1025" height="1536"/>
